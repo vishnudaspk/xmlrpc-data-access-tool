@@ -37,11 +37,9 @@ Edit
 python connector.py
 Follow the CLI prompts to authenticate, list databases, and explore available data models or records.
 
-⚙️ Features
-Network connection timeout and retries to handle unstable networks
+## ⚙️ Features
 
-Graceful handling of XML-RPC faults and exceptions
-
-Flexible data fetching from arbitrary tables/models
-
-Pagination support and user-controlled data display limits
+- Network connection timeout and retries to handle unstable networks
+- Graceful handling of XML-RPC faults and exceptions
+- Flexible data fetching from arbitrary tables/models
+- Pagination support and user-controlled data display limits
