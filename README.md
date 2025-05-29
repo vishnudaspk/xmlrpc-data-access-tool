@@ -26,3 +26,22 @@ This Python script demonstrates a **robust client for connecting to any XML-RPC 
    ```bash
    git clone https://github.com/vishnudaspk/xmlrpc-data-access-tool.git
    cd xmlrpc-data-access-tool
+
+Configure connection details (URL, username, password) in the script.
+
+Run the script:
+
+bash
+Copy
+Edit
+python connector.py
+Follow the CLI prompts to authenticate, list databases, and explore available data models or records.
+
+⚙️ Features
+Network connection timeout and retries to handle unstable networks
+
+Graceful handling of XML-RPC faults and exceptions
+
+Flexible data fetching from arbitrary tables/models
+
+Pagination support and user-controlled data display limits
