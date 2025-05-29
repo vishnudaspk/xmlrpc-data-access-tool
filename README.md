@@ -1,48 +1,28 @@
-XML-RPC Server Connector
-This Python script demonstrates a robust client for connecting to any XML-RPC based server (commonly used by many enterprise software solutions). It showcases:
+# XML-RPC Server Connector
 
-Establishing connections with configurable timeouts and detailed error handling
+This Python script demonstrates a **robust client for connecting to any XML-RPC based server** (commonly used by many enterprise software solutions). It showcases:
 
-Secure user authentication via XML-RPC API
+- **Establishing connections with configurable timeouts and detailed error handling**
+- **Secure user authentication via XML-RPC API**
+- **Retrieving and listing available databases on the server**
+- **Querying metadata about available data models/tables**
+- **Interactive CLI for user-friendly selection and exploration**
+- **Modular, readable, and maintainable Python code**
 
-Retrieving and listing available databases on the server
+---
 
-Querying metadata about available data models/tables
+## 🛠️ Technologies Used
 
-Interactive CLI for user-friendly selection and exploration
+- **Python 3.x**
+- **`xmlrpc.client`** — native Python library implementing XML-RPC protocol
+- Comprehensive error management for network and protocol errors
 
-Modular, readable, and maintainable Python code
+---
 
-🛠️ Technologies Used
-Python 3.x
+## 🚀 How to Use
 
-xmlrpc.client — native Python library implementing XML-RPC protocol
+1. Clone the repository:
 
-Comprehensive error management for network and protocol errors
-
-🚀 How to Use
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/vishnudaspk/xmlrpc-data-access-tool.git
-cd xmlrpc-data-access-tool
-Configure connection details (URL, username, password) in the script.
-
-Run the script:
-
-bash
-Copy
-Edit
-python connector.py
-Follow the CLI prompts to authenticate, list databases, and explore available data models or records.
-
-⚙️ Features
-Network connection timeout and retries to handle unstable networks
-
-Graceful handling of XML-RPC faults and exceptions
-
-Flexible data fetching from arbitrary tables/models
-
-Pagination support and user-controlled data display limits
+   ```bash
+   git clone https://github.com/vishnudaspk/xmlrpc-data-access-tool.git
+   cd xmlrpc-data-access-tool
